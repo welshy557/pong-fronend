@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css"/>
+    <title>Pong</title>
+  </head>
+    <button id="play">Play</button>
+    <div id="join-game-container">
+      <div id="game-id"></div>
+      <label>Join Game</label>
+      <input id="game-id-value">
+      <button id="join-game">Join</button>
+    </div>
+    <div class="player-count" id="player-count">Players: 1/2</div>
+    
+    <div id="score">0 - 0</div>
+    <div id="canvas-container">
+      <canvas id="canvas"></canvas>
+    </div>
+    <script defer type="module" src="/src/main.ts"></script>
+  </body>
+</html>

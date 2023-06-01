@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+#canvas-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#canvas {
+  width: 1000px;
+  height: 500px;
+  background-color: black;
+  border: 5px solid black;
+}
+
+.player-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.player {
+  background-color: white;
+  width: 20px;
+  height: 100px;
+}
+
+.ball {
+  position: absolute;
+  height: 20px;
+  width: 20px;
+  border-radius: 100%;
+  background-color: white;
+}
+
